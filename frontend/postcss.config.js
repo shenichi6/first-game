@@ -1,1 +1,5 @@
-ÿþ
+ï»¿export default {
+  plugins: {
+    autoprefixer: {},
+  },
+};
