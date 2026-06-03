@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aetheria: Echoes of the Void</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        body { background-color: #0a0a0c; color: #e2e2e7; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .rarity-UR { color: #ff00ff; text-shadow: 0 0 10px #ff00ff; }
+        .rarity-SP { color: #ffcc00; text-shadow: 0 0 10px #ffcc00; }
+        .rarity-Legendary { color: #ff6600; }
+        .rarity-Epic { color: #9933ff; }
+        .rarity-Rare { color: #3366ff; }
+        .card { background: #1a1a1e; border: 1px solid #333; border-radius: 8px; transition: transform 0.2s; }
+        .card:hover { transform: scale(1.05); border-color: #555; }
+        .btn { background: #333; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+        .btn:hover { background: #444; }
+        .btn-primary { background: #4f46e5; }
+        .btn-primary:hover { background: #4338ca; }
+    </style>
+</head>
+<body>
+    <div id="app" class="max-w-4xl mx-auto p-4">
+        <!-- Header -->
+        <header class="flex justify-between items-center py-4 border-b border-gray-800">
+            <h1 class="text-2xl font-bold text-indigo-500">AETHERIA</h1>
+            <div class="flex gap-4">
+                <span>Gems: <span id="gems">1000</span></span>
+                <span>Gold: <span id="gold">5000</span></span>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main id="main-content" class="mt-8">
+            <!-- Initial Lobby View -->
+            <div id="lobby-view" class="text-center">
+                <div class="mb-8">
+                    <h2 class="text-4xl font-serif mb-2">Echoes of the Void</h2>
+                    <p class="text-gray-400">Commander, the corruption spreads. Gather your heroes.</p>
+                </div>
+                <div class="mb-8 p-4 bg-indigo-900/20 border border-indigo-500/30 rounded-lg max-w-lg mx-auto flex justify-between items-center">
+                    <div>
+                        <p class="text-xs text-indigo-300">AFK REWARDS ACCUMULATING...</p>
+                        <p class="text-lg font-bold">Gold & XP Ready</p>
+                    </div>
+                    <button onclick="claimAFK()" class="btn bg-indigo-600 hover:bg-indigo-500 text-sm">CLAIM</button>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-lg mx-auto">
+                    <button onclick="showView('battle')" class="btn btn-primary text-xl py-4">ENTER BATTLE</button>
+                    <button onclick="showView('summon')" class="btn bg-amber-600 hover:bg-amber-700 text-xl py-4">SUMMON HEROES</button>
+                    <button onclick="showView('heroes')" class="btn bg-gray-700 hover:bg-gray-600 text-xl py-4">MY HEROES</button>
+                    <button onclick="showView('guild')" class="btn bg-gray-700 hover:bg-gray-600 text-xl py-4">GUILD</button>
+                </div>
+            </div>
+
+            <!-- Battle View (Hidden) -->
+            <div id="battle-view" class="hidden">
+                <div class="flex justify-between mb-4">
+                    <button onclick="showView('lobby')" class="text-sm text-gray-400 hover:text-white">← Back to Lobby</button>
+                    <h3 class="text-xl font-bold">Battle: Forest of Whispers</h3>
+                </div>
+                <div class="grid grid-cols-2 gap-4 h-64 border border-gray-800 rounded p-4 bg-black/50">
+                    <div id="player-side" class="flex flex-col justify-center items-center gap-2">
+                        <p class="text-indigo-400 font-bold">YOUR TEAM</p>
+                        <div id="player-units" class="flex gap-2"></div>
+                    </div>
+                    <div id="enemy-side" class="flex flex-col justify-center items-center gap-2">
+                        <p class="text-red-400 font-bold">VOID FORCES</p>
+                        <div id="enemy-units" class="flex gap-2"></div>
+                    </div>
+                </div>
+                <div id="battle-log" class="mt-4 p-2 bg-gray-900 h-32 overflow-y-auto text-sm font-mono border border-gray-800"></div>
+                <div class="mt-4 flex justify-center gap-4">
+                    <button id="start-btn" onclick="startBattle()" class="btn btn-primary">START BATTLE</button>
+                </div>
+            </div>
+
+            <!-- Summon View (Hidden) -->
+            <div id="summon-view" class="hidden text-center">
+                <button onclick="showView('lobby')" class="block mb-4 text-sm text-gray-400 hover:text-white">← Back to Lobby</button>
+                <h3 class="text-2xl font-bold mb-8">Celestial Portal</h3>
+                <div class="bg-indigo-900/20 p-12 rounded-full w-48 h-48 mx-auto mb-8 border-4 border-indigo-500/30 flex items-center justify-center animate-pulse">
+                    <div class="text-4xl">✨</div>
+                </div>
+                <div class="flex justify-center gap-4">
+                    <button onclick="doSummon(1)" class="btn bg-indigo-600">Summon x1 (100 Gems)</button>
+                    <button onclick="doSummon(10)" class="btn bg-indigo-800">Summon x10 (900 Gems)</button>
+                </div>
+                <div id="summon-results" class="mt-8 grid grid-cols-2 md:grid-cols-5 gap-4"></div>
+            </div>
+
+            <!-- Heroes View (Hidden) -->
+            <div id="heroes-view" class="hidden">
+                <button onclick="showView('lobby')" class="block mb-4 text-sm text-gray-400 hover:text-white">← Back to Lobby</button>
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-2xl font-bold">Hero Collection</h3>
+                    <div class="text-sm text-gray-400">Total: <span id="hero-count">0</span>/70</div>
+                </div>
+                <!-- Filters -->
+                <div class="flex gap-2 mb-4 overflow-x-auto pb-2 text-xs">
+                    <button class="bg-gray-800 px-3 py-1 rounded">ALL</button>
+                    <button class="bg-gray-800 px-3 py-1 rounded">TANK</button>
+                    <button class="bg-gray-800 px-3 py-1 rounded">DPS</button>
+                    <button class="bg-gray-800 px-3 py-1 rounded">HEALER</button>
+                    <button class="bg-gray-800 px-3 py-1 rounded">SUPPORT</button>
+                </div>
+                <div id="hero-grid" class="grid grid-cols-2 md:grid-cols-4 gap-4"></div>
+            </div>
+
+            <!-- Guild View (Hidden) -->
+            <div id="guild-view" class="hidden">
+                <button onclick="showView('lobby')" class="block mb-4 text-sm text-gray-400 hover:text-white">← Back to Lobby</button>
+                <h3 class="text-2xl font-bold mb-4">Guild Headquarters</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="card p-4">
+                        <h4 class="font-bold text-indigo-400 mb-2">Guild Technology</h4>
+                        <div class="space-y-4">
+                            <div>
+                                <div class="flex justify-between text-xs mb-1">
+                                    <span>Warrior's Might (ATK)</span>
+                                    <span>LVL 0 (+0%)</span>
+                                </div>
+                                <button class="w-full py-1 bg-indigo-900/50 rounded border border-indigo-500/30 text-[10px]">UPGRADE (500 Gold)</button>
+                            </div>
+                            <div>
+                                <div class="flex justify-between text-xs mb-1">
+                                    <span>Vitality Core (HP)</span>
+                                    <span>LVL 0 (+0%)</span>
+                                </div>
+                                <button class="w-full py-1 bg-indigo-900/50 rounded border border-indigo-500/30 text-[10px]">UPGRADE (500 Gold)</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-4">
+                        <h4 class="font-bold text-amber-400 mb-2">Guild Bosses</h4>
+                        <p class="text-sm text-gray-500 mb-4">The Ancient Void Dragon awaits...</p>
+                        <button class="w-full py-2 bg-amber-600 rounded font-bold">CHALLENGE</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+</body>
+</html>

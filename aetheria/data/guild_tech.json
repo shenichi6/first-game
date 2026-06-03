@@ -1,0 +1,9 @@
+{
+    "technologies": [
+        {"id": "atk_boost", "name": "Warrior's Might", "stat": "Attack", "max_level": 100},
+        {"id": "hp_boost", "name": "Vitality Core", "stat": "HP", "max_level": 100},
+        {"id": "def_boost", "name": "Iron Bulwark", "stat": "Defense", "max_level": 100},
+        {"id": "speed_boost", "name": "Wind Runner", "stat": "Speed", "max_level": 100}
+    ],
+    "scaling_rule": "1% per level, capped at 150% bonus"
+}

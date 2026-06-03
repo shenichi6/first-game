@@ -1,0 +1,3005 @@
+[
+    {
+        "id": 1,
+        "name": "Rowan",
+        "rarity": "Common",
+        "class": "DPS",
+        "faction": "Wildkin Shamans",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 1000,
+            "Attack": 150,
+            "Defense": 50,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 1,
+        "max_level_base": 20
+    },
+    {
+        "id": 2,
+        "name": "Brak",
+        "rarity": "Common",
+        "class": "Tank",
+        "faction": "Wildkin Shamans",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 70,
+            "Defense": 75,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 1,
+        "max_level_base": 20
+    },
+    {
+        "id": 3,
+        "name": "Elowen",
+        "rarity": "Uncommon",
+        "class": "Healer",
+        "faction": "Wildkin Shamans",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 1320,
+            "Attack": 120,
+            "Defense": 60,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 120,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 2,
+        "max_level_base": 40
+    },
+    {
+        "id": 4,
+        "name": "Thorn",
+        "rarity": "Rare",
+        "class": "Assassin",
+        "faction": "Shadow Rogues",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 195,
+            "Defense": 75,
+            "Speed": 130,
+            "CritRate": 0.2,
+            "CritDamage": 2.0,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 5,
+        "name": "Sylvara",
+        "rarity": "Rare",
+        "class": "Controller",
+        "faction": "Wildkin Shamans",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 75,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 6,
+        "name": "Fenric",
+        "rarity": "Rare",
+        "class": "DPS",
+        "faction": "Wildkin Shamans",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 225,
+            "Defense": 75,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 7,
+        "name": "Ardan",
+        "rarity": "Epic",
+        "class": "Tank",
+        "faction": "Wildkin Shamans",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 140,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 8,
+        "name": "Liora",
+        "rarity": "Epic",
+        "class": "Support",
+        "faction": "Wildkin Shamans",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 2400,
+            "Attack": 200,
+            "Defense": 100,
+            "Speed": 120,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 9,
+        "name": "Elaris",
+        "rarity": "Legendary",
+        "class": "Controller",
+        "faction": "Wildkin Shamans",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 150,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 10,
+        "name": "Elder Oakheart",
+        "rarity": "Legendary",
+        "class": "Tank",
+        "faction": "Wildkin Shamans",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 4500,
+            "Attack": 210,
+            "Defense": 225,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 11,
+        "name": "Caelum",
+        "rarity": "Rare",
+        "class": "DPS",
+        "faction": "Arcane Mages",
+        "origin": "Crystal Caverns",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 225,
+            "Defense": 75,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 12,
+        "name": "Selene",
+        "rarity": "Rare",
+        "class": "Controller",
+        "faction": "Arcane Mages",
+        "origin": "Crystal Caverns",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 75,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 13,
+        "name": "Voss",
+        "rarity": "Epic",
+        "class": "Tank",
+        "faction": "Arcane Mages",
+        "origin": "Crystal Caverns",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 140,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 14,
+        "name": "Aria",
+        "rarity": "Epic",
+        "class": "Healer",
+        "faction": "Arcane Mages",
+        "origin": "Crystal Caverns",
+        "base_stats": {
+            "HP": 2200,
+            "Attack": 200,
+            "Defense": 100,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 200,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 15,
+        "name": "Lucian",
+        "rarity": "Legendary",
+        "class": "DPS",
+        "faction": "Arcane Mages",
+        "origin": "Crystal Caverns",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 450,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 16,
+        "name": "Crystal Queen Seraphine",
+        "rarity": "Legendary",
+        "class": "Controller",
+        "faction": "Arcane Mages",
+        "origin": "Crystal Caverns",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 150,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 17,
+        "name": "Vulkar",
+        "rarity": "Rare",
+        "class": "Tank",
+        "faction": "Volcanic",
+        "origin": "Volcanic Wastes",
+        "base_stats": {
+            "HP": 2250,
+            "Attack": 105,
+            "Defense": 112,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 18,
+        "name": "Ember",
+        "rarity": "Rare",
+        "class": "DPS",
+        "faction": "Volcanic",
+        "origin": "Volcanic Wastes",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 225,
+            "Defense": 75,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 19,
+        "name": "Pyra",
+        "rarity": "Epic",
+        "class": "Controller",
+        "faction": "Volcanic",
+        "origin": "Volcanic Wastes",
+        "base_stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 100,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 20,
+        "name": "Kaelor",
+        "rarity": "Epic",
+        "class": "Support",
+        "faction": "Volcanic",
+        "origin": "Volcanic Wastes",
+        "base_stats": {
+            "HP": 2400,
+            "Attack": 200,
+            "Defense": 100,
+            "Speed": 120,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 21,
+        "name": "Ignis",
+        "rarity": "Legendary",
+        "class": "DPS",
+        "faction": "Volcanic",
+        "origin": "Volcanic Wastes",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 450,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 22,
+        "name": "Inferna",
+        "rarity": "Legendary",
+        "class": "Healer",
+        "faction": "Volcanic",
+        "origin": "Volcanic Wastes",
+        "base_stats": {
+            "HP": 3300,
+            "Attack": 300,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 300,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 23,
+        "name": "Aurelius",
+        "rarity": "Epic",
+        "class": "Tank",
+        "faction": "Sky Citadel",
+        "origin": "Sky Citadel",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 140,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 24,
+        "name": "Seraphine",
+        "rarity": "Epic",
+        "class": "Healer",
+        "faction": "Sky Citadel",
+        "origin": "Sky Citadel",
+        "base_stats": {
+            "HP": 2200,
+            "Attack": 200,
+            "Defense": 100,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 200,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 25,
+        "name": "Valor",
+        "rarity": "Legendary",
+        "class": "DPS",
+        "faction": "Sky Citadel",
+        "origin": "Sky Citadel",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 450,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 26,
+        "name": "Celestia",
+        "rarity": "UR",
+        "class": "Support",
+        "faction": "Sky Citadel",
+        "origin": "Sky Citadel",
+        "base_stats": {
+            "HP": 4800,
+            "Attack": 400,
+            "Defense": 200,
+            "Speed": 120,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 2.0,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.5,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 5.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Global Stat Buff"
+                },
+                {
+                    "name": "Passive 2",
+                    "description": "Void Resistance"
+                }
+            ]
+        },
+        "base_stars": 7,
+        "max_level_base": 140
+    },
+    {
+        "id": 27,
+        "name": "Frostfang",
+        "rarity": "Rare",
+        "class": "DPS",
+        "faction": "Frozen Tundra",
+        "origin": "Frozen Tundra",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 225,
+            "Defense": 75,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 28,
+        "name": "Ylena",
+        "rarity": "Epic",
+        "class": "Controller",
+        "faction": "Frozen Tundra",
+        "origin": "Frozen Tundra",
+        "base_stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 100,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 29,
+        "name": "Boreas",
+        "rarity": "Legendary",
+        "class": "Tank",
+        "faction": "Frozen Tundra",
+        "origin": "Frozen Tundra",
+        "base_stats": {
+            "HP": 4500,
+            "Attack": 210,
+            "Defense": 225,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 30,
+        "name": "Glacia",
+        "rarity": "Legendary",
+        "class": "Healer",
+        "faction": "Frozen Tundra",
+        "origin": "Frozen Tundra",
+        "base_stats": {
+            "HP": 3300,
+            "Attack": 300,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 300,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 31,
+        "name": "Shade",
+        "rarity": "Rare",
+        "class": "Assassin",
+        "faction": "Shadow Realm",
+        "origin": "Shadow Realm",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 195,
+            "Defense": 75,
+            "Speed": 130,
+            "CritRate": 0.2,
+            "CritDamage": 2.0,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 32,
+        "name": "Nocturne",
+        "rarity": "Epic",
+        "class": "Controller",
+        "faction": "Shadow Realm",
+        "origin": "Shadow Realm",
+        "base_stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 100,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 33,
+        "name": "Umbra",
+        "rarity": "Legendary",
+        "class": "DPS",
+        "faction": "Shadow Realm",
+        "origin": "Shadow Realm",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 450,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 34,
+        "name": "Malachar",
+        "rarity": "SP",
+        "class": "DPS",
+        "faction": "Shadow Realm",
+        "origin": "Shadow Realm",
+        "base_stats": {
+            "HP": 3500,
+            "Attack": 525,
+            "Defense": 175,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.8,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.2,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 4.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Bonus Energy gain"
+                }
+            ]
+        },
+        "base_stars": 6,
+        "max_level_base": 120
+    },
+    {
+        "id": 35,
+        "name": "Aldric",
+        "rarity": "Legendary",
+        "class": "Tank",
+        "faction": "Golden Palace",
+        "origin": "Golden Palace",
+        "base_stats": {
+            "HP": 4500,
+            "Attack": 210,
+            "Defense": 225,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 36,
+        "name": "Lyssa",
+        "rarity": "Legendary",
+        "class": "Healer",
+        "faction": "Golden Palace",
+        "origin": "Golden Palace",
+        "base_stats": {
+            "HP": 3300,
+            "Attack": 300,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 300,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 37,
+        "name": "Regulus",
+        "rarity": "SP",
+        "class": "Support",
+        "faction": "Golden Palace",
+        "origin": "Golden Palace",
+        "base_stats": {
+            "HP": 4200,
+            "Attack": 350,
+            "Defense": 175,
+            "Speed": 120,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.8,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.2,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 4.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Bonus Energy gain"
+                }
+            ]
+        },
+        "base_stars": 6,
+        "max_level_base": 120
+    },
+    {
+        "id": 38,
+        "name": "Abyss Seer",
+        "rarity": "Epic",
+        "class": "Controller",
+        "faction": "Abyss Deep",
+        "origin": "Abyss Deep",
+        "base_stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 100,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 39,
+        "name": "Leviara",
+        "rarity": "Legendary",
+        "class": "DPS",
+        "faction": "Abyss Deep",
+        "origin": "Abyss Deep",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 450,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 40,
+        "name": "Abyss Lord Nethros",
+        "rarity": "SP",
+        "class": "Controller",
+        "faction": "Abyss Deep",
+        "origin": "Abyss Deep",
+        "base_stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 175,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.8,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.2,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 4.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Bonus Energy gain"
+                }
+            ]
+        },
+        "base_stars": 6,
+        "max_level_base": 120
+    },
+    {
+        "id": 41,
+        "name": "Astra",
+        "rarity": "Legendary",
+        "class": "Support",
+        "faction": "Celestial Realm",
+        "origin": "Celestial Realm",
+        "base_stats": {
+            "HP": 3600,
+            "Attack": 300,
+            "Defense": 150,
+            "Speed": 120,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 42,
+        "name": "Solarius",
+        "rarity": "SP",
+        "class": "DPS",
+        "faction": "Celestial Realm",
+        "origin": "Celestial Realm",
+        "base_stats": {
+            "HP": 3500,
+            "Attack": 525,
+            "Defense": 175,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.8,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.2,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 4.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Bonus Energy gain"
+                }
+            ]
+        },
+        "base_stars": 6,
+        "max_level_base": 120
+    },
+    {
+        "id": 43,
+        "name": "Orion",
+        "rarity": "SP",
+        "class": "Tank",
+        "faction": "Celestial Realm",
+        "origin": "Celestial Realm",
+        "base_stats": {
+            "HP": 5250,
+            "Attack": 244,
+            "Defense": 262,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.8,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.2,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 4.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Bonus Energy gain"
+                }
+            ]
+        },
+        "base_stars": 6,
+        "max_level_base": 120
+    },
+    {
+        "id": 44,
+        "name": "Veyrath Redeemed",
+        "rarity": "UR",
+        "class": "Controller",
+        "faction": "Void's End",
+        "origin": "Void's End",
+        "base_stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 200,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 2.0,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.5,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 5.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Global Stat Buff"
+                },
+                {
+                    "name": "Passive 2",
+                    "description": "Void Resistance"
+                }
+            ]
+        },
+        "base_stars": 7,
+        "max_level_base": 140
+    },
+    {
+        "id": 45,
+        "name": "Celestia Ascendant",
+        "rarity": "UR",
+        "class": "Support",
+        "faction": "Void's End",
+        "origin": "Void's End",
+        "base_stats": {
+            "HP": 4800,
+            "Attack": 400,
+            "Defense": 200,
+            "Speed": 120,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 2.0,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.5,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 5.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Global Stat Buff"
+                },
+                {
+                    "name": "Passive 2",
+                    "description": "Void Resistance"
+                }
+            ]
+        },
+        "base_stars": 7,
+        "max_level_base": 140
+    },
+    {
+        "id": 46,
+        "name": "Voidbane",
+        "rarity": "UR",
+        "class": "DPS",
+        "faction": "Void's End",
+        "origin": "Void's End",
+        "base_stats": {
+            "HP": 4000,
+            "Attack": 600,
+            "Defense": 200,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 2.0,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.5,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 5.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Global Stat Buff"
+                },
+                {
+                    "name": "Passive 2",
+                    "description": "Void Resistance"
+                }
+            ]
+        },
+        "base_stars": 7,
+        "max_level_base": 140
+    },
+    {
+        "id": 47,
+        "name": "Eternal Guardian",
+        "rarity": "UR",
+        "class": "Tank",
+        "faction": "Void's End",
+        "origin": "Void's End",
+        "base_stats": {
+            "HP": 6000,
+            "Attack": 280,
+            "Defense": 300,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 2.0,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.5,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 5.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Global Stat Buff"
+                },
+                {
+                    "name": "Passive 2",
+                    "description": "Void Resistance"
+                }
+            ]
+        },
+        "base_stars": 7,
+        "max_level_base": 140
+    },
+    {
+        "id": 48,
+        "name": "Aether Prime",
+        "rarity": "UR",
+        "class": "Support",
+        "faction": "Void's End",
+        "origin": "Void's End",
+        "base_stats": {
+            "HP": 4800,
+            "Attack": 400,
+            "Defense": 200,
+            "Speed": 120,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 2.0,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.5,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 5.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Global Stat Buff"
+                },
+                {
+                    "name": "Passive 2",
+                    "description": "Void Resistance"
+                }
+            ]
+        },
+        "base_stars": 7,
+        "max_level_base": 140
+    },
+    {
+        "id": 49,
+        "name": "Ash Runner",
+        "rarity": "Rare",
+        "class": "Assassin",
+        "faction": "Fire Clan",
+        "origin": "Volcanic Wastes",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 195,
+            "Defense": 75,
+            "Speed": 130,
+            "CritRate": 0.2,
+            "CritDamage": 2.0,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 50,
+        "name": "Wind Slicer",
+        "rarity": "Rare",
+        "class": "DPS",
+        "faction": "Sky Tribe",
+        "origin": "Sky Citadel",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 225,
+            "Defense": 75,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 51,
+        "name": "Stone Warden",
+        "rarity": "Rare",
+        "class": "Tank",
+        "faction": "Mountain Clan",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 2250,
+            "Attack": 105,
+            "Defense": 112,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 52,
+        "name": "Luma Priest",
+        "rarity": "Uncommon",
+        "class": "Healer",
+        "faction": "Lumina",
+        "origin": "Celestial Realm",
+        "base_stats": {
+            "HP": 1320,
+            "Attack": 120,
+            "Defense": 60,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 120,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 2,
+        "max_level_base": 40
+    },
+    {
+        "id": 53,
+        "name": "Rift Scout",
+        "rarity": "Rare",
+        "class": "Controller",
+        "faction": "Void Hunters",
+        "origin": "Void's End",
+        "base_stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 75,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 54,
+        "name": "Iron Fang",
+        "rarity": "Rare",
+        "class": "Tank",
+        "faction": "Wildkin",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 2250,
+            "Attack": 105,
+            "Defense": 112,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 3,
+        "max_level_base": 60
+    },
+    {
+        "id": 55,
+        "name": "Ember Witch",
+        "rarity": "Epic",
+        "class": "DPS",
+        "faction": "Fire Coven",
+        "origin": "Volcanic Wastes",
+        "base_stats": {
+            "HP": 2000,
+            "Attack": 300,
+            "Defense": 100,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 56,
+        "name": "Frost Valkyrie",
+        "rarity": "Epic",
+        "class": "Tank",
+        "faction": "Iceborn",
+        "origin": "Frozen Tundra",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 140,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 57,
+        "name": "Spirit Caller",
+        "rarity": "Epic",
+        "class": "Healer",
+        "faction": "Spirit Realm",
+        "origin": "Shadow Realm",
+        "base_stats": {
+            "HP": 2200,
+            "Attack": 200,
+            "Defense": 100,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 200,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 58,
+        "name": "Blade Echo",
+        "rarity": "Epic",
+        "class": "Assassin",
+        "faction": "Shadow Rogues",
+        "origin": "Shadow Realm",
+        "base_stats": {
+            "HP": 2000,
+            "Attack": 260,
+            "Defense": 100,
+            "Speed": 130,
+            "CritRate": 0.2,
+            "CritDamage": 2.0,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 59,
+        "name": "Arc Engineer",
+        "rarity": "Epic",
+        "class": "Controller",
+        "faction": "Tech Order",
+        "origin": "Sky Citadel",
+        "base_stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 100,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 60,
+        "name": "Void Whisperer",
+        "rarity": "Epic",
+        "class": "Controller",
+        "faction": "Void-Touched",
+        "origin": "Void's End",
+        "base_stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 100,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.5,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 1.8,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": null,
+            "passives": []
+        },
+        "base_stars": 4,
+        "max_level_base": 80
+    },
+    {
+        "id": 61,
+        "name": "Solaris Knight",
+        "rarity": "Legendary",
+        "class": "DPS",
+        "faction": "Lumina Knights",
+        "origin": "Celestial Realm",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 450,
+            "Defense": 150,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 62,
+        "name": "Lunar Empress",
+        "rarity": "Legendary",
+        "class": "Controller",
+        "faction": "Celestial",
+        "origin": "Celestial Realm",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 150,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 63,
+        "name": "Chaos Druid",
+        "rarity": "Legendary",
+        "class": "Controller",
+        "faction": "Nature Balance",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 150,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.6,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.0,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 3.5
+            },
+            "passives": []
+        },
+        "base_stars": 5,
+        "max_level_base": 100
+    },
+    {
+        "id": 64,
+        "name": "Void Reaper",
+        "rarity": "SP",
+        "class": "DPS",
+        "faction": "Void-Touched",
+        "origin": "Void's End",
+        "base_stats": {
+            "HP": 3500,
+            "Attack": 525,
+            "Defense": 175,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.8,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.2,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 4.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Bonus Energy gain"
+                }
+            ]
+        },
+        "base_stars": 6,
+        "max_level_base": 120
+    },
+    {
+        "id": 65,
+        "name": "Time Breaker",
+        "rarity": "SP",
+        "class": "Controller",
+        "faction": "Chrono Order",
+        "origin": "Void's End",
+        "base_stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 175,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.8,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.2,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 4.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Bonus Energy gain"
+                }
+            ]
+        },
+        "base_stars": 6,
+        "max_level_base": 120
+    },
+    {
+        "id": 66,
+        "name": "Star Devourer",
+        "rarity": "SP",
+        "class": "DPS",
+        "faction": "Cosmic Entity",
+        "origin": "Abyss Deep",
+        "base_stats": {
+            "HP": 3500,
+            "Attack": 525,
+            "Defense": 175,
+            "Speed": 100,
+            "CritRate": 0.15000000000000002,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 1.8,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.2,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 4.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Bonus Energy gain"
+                }
+            ]
+        },
+        "base_stars": 6,
+        "max_level_base": 120
+    },
+    {
+        "id": 67,
+        "name": "Seraph Prime",
+        "rarity": "UR",
+        "class": "Support",
+        "faction": "Celestial",
+        "origin": "Celestial Realm",
+        "base_stats": {
+            "HP": 4800,
+            "Attack": 400,
+            "Defense": 200,
+            "Speed": 120,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 2.0,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.5,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 5.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Global Stat Buff"
+                },
+                {
+                    "name": "Passive 2",
+                    "description": "Void Resistance"
+                }
+            ]
+        },
+        "base_stars": 7,
+        "max_level_base": 140
+    },
+    {
+        "id": 68,
+        "name": "Eternal King",
+        "rarity": "UR",
+        "class": "Tank",
+        "faction": "Ancient Ruler",
+        "origin": "Golden Palace",
+        "base_stats": {
+            "HP": 6000,
+            "Attack": 280,
+            "Defense": 300,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 2.0,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.5,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 5.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Global Stat Buff"
+                },
+                {
+                    "name": "Passive 2",
+                    "description": "Void Resistance"
+                }
+            ]
+        },
+        "base_stars": 7,
+        "max_level_base": 140
+    },
+    {
+        "id": 69,
+        "name": "World Root Guardian",
+        "rarity": "UR",
+        "class": "Tank",
+        "faction": "Nature Core",
+        "origin": "Forest of Whispers",
+        "base_stats": {
+            "HP": 6000,
+            "Attack": 280,
+            "Defense": 300,
+            "Speed": 100,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.1,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 2.0,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.5,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 5.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Global Stat Buff"
+                },
+                {
+                    "name": "Passive 2",
+                    "description": "Void Resistance"
+                }
+            ]
+        },
+        "base_stars": 7,
+        "max_level_base": 140
+    },
+    {
+        "id": 70,
+        "name": "Veyrath Fragment",
+        "rarity": "UR",
+        "class": "Controller",
+        "faction": "Void-Touched",
+        "origin": "Void's End",
+        "base_stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 200,
+            "Speed": 110,
+            "CritRate": 0.05,
+            "CritDamage": 1.5,
+            "HealingPower": 0,
+            "EffectAccuracy": 0.30000000000000004,
+            "EffectResistance": 0.1
+        },
+        "kit": {
+            "basic_attack": {
+                "name": "Basic Attack",
+                "multiplier": 1.0
+            },
+            "skills": [
+                {
+                    "name": "Skill 1",
+                    "multiplier": 2.0,
+                    "cooldown": 3
+                },
+                {
+                    "name": "Skill 2",
+                    "multiplier": 2.5,
+                    "cooldown": 5
+                }
+            ],
+            "ultimate": {
+                "name": "Ultimate Ability",
+                "multiplier": 5.0
+            },
+            "passives": [
+                {
+                    "name": "Passive 1",
+                    "description": "Global Stat Buff"
+                },
+                {
+                    "name": "Passive 2",
+                    "description": "Void Resistance"
+                }
+            ]
+        },
+        "base_stars": 7,
+        "max_level_base": 140
+    }
+]

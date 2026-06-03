@@ -1,0 +1,1432 @@
+[
+    {
+        "id": 1,
+        "name": "Enemy 1 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Normal",
+        "stats": {
+            "HP": 500,
+            "Attack": 50,
+            "Defense": 20
+        }
+    },
+    {
+        "id": 2,
+        "name": "Enemy 2 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Normal",
+        "stats": {
+            "HP": 500,
+            "Attack": 50,
+            "Defense": 20
+        }
+    },
+    {
+        "id": 3,
+        "name": "Enemy 3 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Normal",
+        "stats": {
+            "HP": 500,
+            "Attack": 50,
+            "Defense": 20
+        }
+    },
+    {
+        "id": 4,
+        "name": "Enemy 4 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Normal",
+        "stats": {
+            "HP": 500,
+            "Attack": 50,
+            "Defense": 20
+        }
+    },
+    {
+        "id": 5,
+        "name": "Enemy 5 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Normal",
+        "stats": {
+            "HP": 500,
+            "Attack": 50,
+            "Defense": 20
+        }
+    },
+    {
+        "id": 6,
+        "name": "Enemy 6 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Normal",
+        "stats": {
+            "HP": 500,
+            "Attack": 50,
+            "Defense": 20
+        }
+    },
+    {
+        "id": 7,
+        "name": "Enemy 7 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Normal",
+        "stats": {
+            "HP": 500,
+            "Attack": 50,
+            "Defense": 20
+        }
+    },
+    {
+        "id": 8,
+        "name": "Enemy 8 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Normal",
+        "stats": {
+            "HP": 500,
+            "Attack": 50,
+            "Defense": 20
+        }
+    },
+    {
+        "id": 9,
+        "name": "Enemy 9 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Normal",
+        "stats": {
+            "HP": 500,
+            "Attack": 50,
+            "Defense": 20
+        }
+    },
+    {
+        "id": 10,
+        "name": "Enemy 10 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Normal",
+        "stats": {
+            "HP": 500,
+            "Attack": 50,
+            "Defense": 20
+        }
+    },
+    {
+        "id": 11,
+        "name": "Boss 11 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Boss",
+        "stats": {
+            "HP": 2000,
+            "Attack": 150,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 12,
+        "name": "Boss 12 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Boss",
+        "stats": {
+            "HP": 2000,
+            "Attack": 150,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 13,
+        "name": "Boss 13 (Forest of Whispers)",
+        "chapter": "Forest of Whispers",
+        "type": "Boss",
+        "stats": {
+            "HP": 2000,
+            "Attack": 150,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 14,
+        "name": "Enemy 14 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Normal",
+        "stats": {
+            "HP": 1000,
+            "Attack": 100,
+            "Defense": 40
+        }
+    },
+    {
+        "id": 15,
+        "name": "Enemy 15 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Normal",
+        "stats": {
+            "HP": 1000,
+            "Attack": 100,
+            "Defense": 40
+        }
+    },
+    {
+        "id": 16,
+        "name": "Enemy 16 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Normal",
+        "stats": {
+            "HP": 1000,
+            "Attack": 100,
+            "Defense": 40
+        }
+    },
+    {
+        "id": 17,
+        "name": "Enemy 17 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Normal",
+        "stats": {
+            "HP": 1000,
+            "Attack": 100,
+            "Defense": 40
+        }
+    },
+    {
+        "id": 18,
+        "name": "Enemy 18 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Normal",
+        "stats": {
+            "HP": 1000,
+            "Attack": 100,
+            "Defense": 40
+        }
+    },
+    {
+        "id": 19,
+        "name": "Enemy 19 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Normal",
+        "stats": {
+            "HP": 1000,
+            "Attack": 100,
+            "Defense": 40
+        }
+    },
+    {
+        "id": 20,
+        "name": "Enemy 20 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Normal",
+        "stats": {
+            "HP": 1000,
+            "Attack": 100,
+            "Defense": 40
+        }
+    },
+    {
+        "id": 21,
+        "name": "Enemy 21 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Normal",
+        "stats": {
+            "HP": 1000,
+            "Attack": 100,
+            "Defense": 40
+        }
+    },
+    {
+        "id": 22,
+        "name": "Enemy 22 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Normal",
+        "stats": {
+            "HP": 1000,
+            "Attack": 100,
+            "Defense": 40
+        }
+    },
+    {
+        "id": 23,
+        "name": "Enemy 23 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Normal",
+        "stats": {
+            "HP": 1000,
+            "Attack": 100,
+            "Defense": 40
+        }
+    },
+    {
+        "id": 24,
+        "name": "Boss 24 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Boss",
+        "stats": {
+            "HP": 4000,
+            "Attack": 300,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 25,
+        "name": "Boss 25 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Boss",
+        "stats": {
+            "HP": 4000,
+            "Attack": 300,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 26,
+        "name": "Boss 26 (Crystal Caverns)",
+        "chapter": "Crystal Caverns",
+        "type": "Boss",
+        "stats": {
+            "HP": 4000,
+            "Attack": 300,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 27,
+        "name": "Enemy 27 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Normal",
+        "stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 60
+        }
+    },
+    {
+        "id": 28,
+        "name": "Enemy 28 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Normal",
+        "stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 60
+        }
+    },
+    {
+        "id": 29,
+        "name": "Enemy 29 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Normal",
+        "stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 60
+        }
+    },
+    {
+        "id": 30,
+        "name": "Enemy 30 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Normal",
+        "stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 60
+        }
+    },
+    {
+        "id": 31,
+        "name": "Enemy 31 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Normal",
+        "stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 60
+        }
+    },
+    {
+        "id": 32,
+        "name": "Enemy 32 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Normal",
+        "stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 60
+        }
+    },
+    {
+        "id": 33,
+        "name": "Enemy 33 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Normal",
+        "stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 60
+        }
+    },
+    {
+        "id": 34,
+        "name": "Enemy 34 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Normal",
+        "stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 60
+        }
+    },
+    {
+        "id": 35,
+        "name": "Enemy 35 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Normal",
+        "stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 60
+        }
+    },
+    {
+        "id": 36,
+        "name": "Enemy 36 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Normal",
+        "stats": {
+            "HP": 1500,
+            "Attack": 150,
+            "Defense": 60
+        }
+    },
+    {
+        "id": 37,
+        "name": "Boss 37 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Boss",
+        "stats": {
+            "HP": 6000,
+            "Attack": 450,
+            "Defense": 300
+        }
+    },
+    {
+        "id": 38,
+        "name": "Boss 38 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Boss",
+        "stats": {
+            "HP": 6000,
+            "Attack": 450,
+            "Defense": 300
+        }
+    },
+    {
+        "id": 39,
+        "name": "Boss 39 (Volcanic Wastes)",
+        "chapter": "Volcanic Wastes",
+        "type": "Boss",
+        "stats": {
+            "HP": 6000,
+            "Attack": 450,
+            "Defense": 300
+        }
+    },
+    {
+        "id": 40,
+        "name": "Enemy 40 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Normal",
+        "stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 80
+        }
+    },
+    {
+        "id": 41,
+        "name": "Enemy 41 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Normal",
+        "stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 80
+        }
+    },
+    {
+        "id": 42,
+        "name": "Enemy 42 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Normal",
+        "stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 80
+        }
+    },
+    {
+        "id": 43,
+        "name": "Enemy 43 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Normal",
+        "stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 80
+        }
+    },
+    {
+        "id": 44,
+        "name": "Enemy 44 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Normal",
+        "stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 80
+        }
+    },
+    {
+        "id": 45,
+        "name": "Enemy 45 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Normal",
+        "stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 80
+        }
+    },
+    {
+        "id": 46,
+        "name": "Enemy 46 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Normal",
+        "stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 80
+        }
+    },
+    {
+        "id": 47,
+        "name": "Enemy 47 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Normal",
+        "stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 80
+        }
+    },
+    {
+        "id": 48,
+        "name": "Enemy 48 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Normal",
+        "stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 80
+        }
+    },
+    {
+        "id": 49,
+        "name": "Enemy 49 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Normal",
+        "stats": {
+            "HP": 2000,
+            "Attack": 200,
+            "Defense": 80
+        }
+    },
+    {
+        "id": 50,
+        "name": "Boss 50 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Boss",
+        "stats": {
+            "HP": 8000,
+            "Attack": 600,
+            "Defense": 400
+        }
+    },
+    {
+        "id": 51,
+        "name": "Boss 51 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Boss",
+        "stats": {
+            "HP": 8000,
+            "Attack": 600,
+            "Defense": 400
+        }
+    },
+    {
+        "id": 52,
+        "name": "Boss 52 (Sky Citadel)",
+        "chapter": "Sky Citadel",
+        "type": "Boss",
+        "stats": {
+            "HP": 8000,
+            "Attack": 600,
+            "Defense": 400
+        }
+    },
+    {
+        "id": 53,
+        "name": "Enemy 53 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Normal",
+        "stats": {
+            "HP": 2500,
+            "Attack": 250,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 54,
+        "name": "Enemy 54 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Normal",
+        "stats": {
+            "HP": 2500,
+            "Attack": 250,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 55,
+        "name": "Enemy 55 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Normal",
+        "stats": {
+            "HP": 2500,
+            "Attack": 250,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 56,
+        "name": "Enemy 56 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Normal",
+        "stats": {
+            "HP": 2500,
+            "Attack": 250,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 57,
+        "name": "Enemy 57 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Normal",
+        "stats": {
+            "HP": 2500,
+            "Attack": 250,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 58,
+        "name": "Enemy 58 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Normal",
+        "stats": {
+            "HP": 2500,
+            "Attack": 250,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 59,
+        "name": "Enemy 59 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Normal",
+        "stats": {
+            "HP": 2500,
+            "Attack": 250,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 60,
+        "name": "Enemy 60 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Normal",
+        "stats": {
+            "HP": 2500,
+            "Attack": 250,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 61,
+        "name": "Enemy 61 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Normal",
+        "stats": {
+            "HP": 2500,
+            "Attack": 250,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 62,
+        "name": "Enemy 62 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Normal",
+        "stats": {
+            "HP": 2500,
+            "Attack": 250,
+            "Defense": 100
+        }
+    },
+    {
+        "id": 63,
+        "name": "Boss 63 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Boss",
+        "stats": {
+            "HP": 10000,
+            "Attack": 750,
+            "Defense": 500
+        }
+    },
+    {
+        "id": 64,
+        "name": "Boss 64 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Boss",
+        "stats": {
+            "HP": 10000,
+            "Attack": 750,
+            "Defense": 500
+        }
+    },
+    {
+        "id": 65,
+        "name": "Boss 65 (Frozen Tundra)",
+        "chapter": "Frozen Tundra",
+        "type": "Boss",
+        "stats": {
+            "HP": 10000,
+            "Attack": 750,
+            "Defense": 500
+        }
+    },
+    {
+        "id": 66,
+        "name": "Enemy 66 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 120
+        }
+    },
+    {
+        "id": 67,
+        "name": "Enemy 67 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 120
+        }
+    },
+    {
+        "id": 68,
+        "name": "Enemy 68 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 120
+        }
+    },
+    {
+        "id": 69,
+        "name": "Enemy 69 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 120
+        }
+    },
+    {
+        "id": 70,
+        "name": "Enemy 70 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 120
+        }
+    },
+    {
+        "id": 71,
+        "name": "Enemy 71 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 120
+        }
+    },
+    {
+        "id": 72,
+        "name": "Enemy 72 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 120
+        }
+    },
+    {
+        "id": 73,
+        "name": "Enemy 73 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 120
+        }
+    },
+    {
+        "id": 74,
+        "name": "Enemy 74 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 120
+        }
+    },
+    {
+        "id": 75,
+        "name": "Enemy 75 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 3000,
+            "Attack": 300,
+            "Defense": 120
+        }
+    },
+    {
+        "id": 76,
+        "name": "Boss 76 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Boss",
+        "stats": {
+            "HP": 12000,
+            "Attack": 900,
+            "Defense": 600
+        }
+    },
+    {
+        "id": 77,
+        "name": "Boss 77 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Boss",
+        "stats": {
+            "HP": 12000,
+            "Attack": 900,
+            "Defense": 600
+        }
+    },
+    {
+        "id": 78,
+        "name": "Boss 78 (Shadow Realm)",
+        "chapter": "Shadow Realm",
+        "type": "Boss",
+        "stats": {
+            "HP": 12000,
+            "Attack": 900,
+            "Defense": 600
+        }
+    },
+    {
+        "id": 79,
+        "name": "Enemy 79 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Normal",
+        "stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 140
+        }
+    },
+    {
+        "id": 80,
+        "name": "Enemy 80 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Normal",
+        "stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 140
+        }
+    },
+    {
+        "id": 81,
+        "name": "Enemy 81 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Normal",
+        "stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 140
+        }
+    },
+    {
+        "id": 82,
+        "name": "Enemy 82 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Normal",
+        "stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 140
+        }
+    },
+    {
+        "id": 83,
+        "name": "Enemy 83 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Normal",
+        "stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 140
+        }
+    },
+    {
+        "id": 84,
+        "name": "Enemy 84 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Normal",
+        "stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 140
+        }
+    },
+    {
+        "id": 85,
+        "name": "Enemy 85 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Normal",
+        "stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 140
+        }
+    },
+    {
+        "id": 86,
+        "name": "Enemy 86 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Normal",
+        "stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 140
+        }
+    },
+    {
+        "id": 87,
+        "name": "Enemy 87 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Normal",
+        "stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 140
+        }
+    },
+    {
+        "id": 88,
+        "name": "Enemy 88 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Normal",
+        "stats": {
+            "HP": 3500,
+            "Attack": 350,
+            "Defense": 140
+        }
+    },
+    {
+        "id": 89,
+        "name": "Boss 89 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Boss",
+        "stats": {
+            "HP": 14000,
+            "Attack": 1050,
+            "Defense": 700
+        }
+    },
+    {
+        "id": 90,
+        "name": "Boss 90 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Boss",
+        "stats": {
+            "HP": 14000,
+            "Attack": 1050,
+            "Defense": 700
+        }
+    },
+    {
+        "id": 91,
+        "name": "Boss 91 (Golden Palace)",
+        "chapter": "Golden Palace",
+        "type": "Boss",
+        "stats": {
+            "HP": 14000,
+            "Attack": 1050,
+            "Defense": 700
+        }
+    },
+    {
+        "id": 92,
+        "name": "Enemy 92 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Normal",
+        "stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 160
+        }
+    },
+    {
+        "id": 93,
+        "name": "Enemy 93 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Normal",
+        "stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 160
+        }
+    },
+    {
+        "id": 94,
+        "name": "Enemy 94 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Normal",
+        "stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 160
+        }
+    },
+    {
+        "id": 95,
+        "name": "Enemy 95 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Normal",
+        "stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 160
+        }
+    },
+    {
+        "id": 96,
+        "name": "Enemy 96 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Normal",
+        "stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 160
+        }
+    },
+    {
+        "id": 97,
+        "name": "Enemy 97 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Normal",
+        "stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 160
+        }
+    },
+    {
+        "id": 98,
+        "name": "Enemy 98 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Normal",
+        "stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 160
+        }
+    },
+    {
+        "id": 99,
+        "name": "Enemy 99 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Normal",
+        "stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 160
+        }
+    },
+    {
+        "id": 100,
+        "name": "Enemy 100 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Normal",
+        "stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 160
+        }
+    },
+    {
+        "id": 101,
+        "name": "Enemy 101 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Normal",
+        "stats": {
+            "HP": 4000,
+            "Attack": 400,
+            "Defense": 160
+        }
+    },
+    {
+        "id": 102,
+        "name": "Boss 102 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Boss",
+        "stats": {
+            "HP": 16000,
+            "Attack": 1200,
+            "Defense": 800
+        }
+    },
+    {
+        "id": 103,
+        "name": "Boss 103 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Boss",
+        "stats": {
+            "HP": 16000,
+            "Attack": 1200,
+            "Defense": 800
+        }
+    },
+    {
+        "id": 104,
+        "name": "Boss 104 (Abyss Deep)",
+        "chapter": "Abyss Deep",
+        "type": "Boss",
+        "stats": {
+            "HP": 16000,
+            "Attack": 1200,
+            "Defense": 800
+        }
+    },
+    {
+        "id": 105,
+        "name": "Enemy 105 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 4500,
+            "Attack": 450,
+            "Defense": 180
+        }
+    },
+    {
+        "id": 106,
+        "name": "Enemy 106 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 4500,
+            "Attack": 450,
+            "Defense": 180
+        }
+    },
+    {
+        "id": 107,
+        "name": "Enemy 107 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 4500,
+            "Attack": 450,
+            "Defense": 180
+        }
+    },
+    {
+        "id": 108,
+        "name": "Enemy 108 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 4500,
+            "Attack": 450,
+            "Defense": 180
+        }
+    },
+    {
+        "id": 109,
+        "name": "Enemy 109 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 4500,
+            "Attack": 450,
+            "Defense": 180
+        }
+    },
+    {
+        "id": 110,
+        "name": "Enemy 110 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 4500,
+            "Attack": 450,
+            "Defense": 180
+        }
+    },
+    {
+        "id": 111,
+        "name": "Enemy 111 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 4500,
+            "Attack": 450,
+            "Defense": 180
+        }
+    },
+    {
+        "id": 112,
+        "name": "Enemy 112 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 4500,
+            "Attack": 450,
+            "Defense": 180
+        }
+    },
+    {
+        "id": 113,
+        "name": "Enemy 113 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 4500,
+            "Attack": 450,
+            "Defense": 180
+        }
+    },
+    {
+        "id": 114,
+        "name": "Enemy 114 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Normal",
+        "stats": {
+            "HP": 4500,
+            "Attack": 450,
+            "Defense": 180
+        }
+    },
+    {
+        "id": 115,
+        "name": "Boss 115 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Boss",
+        "stats": {
+            "HP": 18000,
+            "Attack": 1350,
+            "Defense": 900
+        }
+    },
+    {
+        "id": 116,
+        "name": "Boss 116 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Boss",
+        "stats": {
+            "HP": 18000,
+            "Attack": 1350,
+            "Defense": 900
+        }
+    },
+    {
+        "id": 117,
+        "name": "Boss 117 (Celestial Realm)",
+        "chapter": "Celestial Realm",
+        "type": "Boss",
+        "stats": {
+            "HP": 18000,
+            "Attack": 1350,
+            "Defense": 900
+        }
+    },
+    {
+        "id": 118,
+        "name": "Enemy 118 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Normal",
+        "stats": {
+            "HP": 5000,
+            "Attack": 500,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 119,
+        "name": "Enemy 119 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Normal",
+        "stats": {
+            "HP": 5000,
+            "Attack": 500,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 120,
+        "name": "Enemy 120 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Normal",
+        "stats": {
+            "HP": 5000,
+            "Attack": 500,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 121,
+        "name": "Enemy 121 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Normal",
+        "stats": {
+            "HP": 5000,
+            "Attack": 500,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 122,
+        "name": "Enemy 122 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Normal",
+        "stats": {
+            "HP": 5000,
+            "Attack": 500,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 123,
+        "name": "Enemy 123 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Normal",
+        "stats": {
+            "HP": 5000,
+            "Attack": 500,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 124,
+        "name": "Enemy 124 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Normal",
+        "stats": {
+            "HP": 5000,
+            "Attack": 500,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 125,
+        "name": "Enemy 125 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Normal",
+        "stats": {
+            "HP": 5000,
+            "Attack": 500,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 126,
+        "name": "Enemy 126 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Normal",
+        "stats": {
+            "HP": 5000,
+            "Attack": 500,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 127,
+        "name": "Enemy 127 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Normal",
+        "stats": {
+            "HP": 5000,
+            "Attack": 500,
+            "Defense": 200
+        }
+    },
+    {
+        "id": 128,
+        "name": "Boss 128 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Boss",
+        "stats": {
+            "HP": 20000,
+            "Attack": 1500,
+            "Defense": 1000
+        }
+    },
+    {
+        "id": 129,
+        "name": "Boss 129 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Boss",
+        "stats": {
+            "HP": 20000,
+            "Attack": 1500,
+            "Defense": 1000
+        }
+    },
+    {
+        "id": 130,
+        "name": "Boss 130 (Void's End)",
+        "chapter": "Void's End",
+        "type": "Boss",
+        "stats": {
+            "HP": 20000,
+            "Attack": 1500,
+            "Defense": 1000
+        }
+    }
+]

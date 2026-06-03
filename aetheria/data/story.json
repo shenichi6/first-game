@@ -1,0 +1,102 @@
+{
+    "chapters": [
+        {
+            "id": 1,
+            "title": "Forest of Whispers",
+            "theme": "Nature corrupted by the Void",
+            "npc": "Elder Oakheart",
+            "intro_dialogue": "The trees remember a time before fear... The Void does not arrive... it forgets us into itself.",
+            "boss": "Ancient Thornbeast",
+            "ending_artifact": "Echo Seed",
+            "stages": 100
+        },
+        {
+            "id": 2,
+            "title": "Crystal Caverns",
+            "theme": "Corrupted magic crystals",
+            "npc": "Crystal Seer",
+            "intro_dialogue": "The crystals are singing backwards... they are recording lost timelines.",
+            "boss": "Crystal Colossus",
+            "revelation": "Void spreads through memory corruption",
+            "stages": 100
+        },
+        {
+            "id": 3,
+            "title": "Volcanic Wastes",
+            "theme": "Fire and destruction",
+            "npc": "Blacksmith Vulkar",
+            "intro_dialogue": "Even fire forgets how to burn correctly now...",
+            "boss": "Inferno Dragon",
+            "mechanic_intro": "Unstable Damage",
+            "stages": 100
+        },
+        {
+            "id": 4,
+            "title": "Sky Citadel",
+            "theme": "Fallen celestial kingdom",
+            "npc": "Celestial Speaker",
+            "intro_dialogue": "Even the sky is learning how to fall... Gods are not immune, just delayed.",
+            "boss": "Sky Sovereign",
+            "stages": 100
+        },
+        {
+            "id": 5,
+            "title": "Frozen Tundra",
+            "theme": "Ancient frozen horrors",
+            "npc": "Frozen Survivor",
+            "intro_dialogue": "We froze time to survive the Void... it learned patience.",
+            "boss": "Frost Titan",
+            "stages": 100
+        },
+        {
+            "id": 6,
+            "title": "Shadow Realm",
+            "theme": "Domain of darkness",
+            "npc": "Void Whisper",
+            "intro_dialogue": "We are already inside you.",
+            "boss": "Shadow Emperor",
+            "visual_twist": "UI Glitch",
+            "stages": 100
+        },
+        {
+            "id": 7,
+            "title": "Golden Palace",
+            "theme": "Corrupted kingdom",
+            "npc": "King's Ghost",
+            "intro_dialogue": "A throne is just a memory of control.",
+            "boss": "The Hollow Monarch",
+            "stages": 100
+        },
+        {
+            "id": 8,
+            "title": "Abyss Deep",
+            "theme": "Cosmic horror",
+            "npc": "Abyss Seer",
+            "intro_dialogue": "The Void is not coming. It already happened elsewhere.",
+            "boss": "Abyss Leviathan",
+            "stages": 100
+        },
+        {
+            "id": 9,
+            "title": "Celestial Realm",
+            "theme": "Realm of gods",
+            "npc": "Solarius",
+            "intro_dialogue": "We are not gods. We are survivors of older collapse.",
+            "boss": "Celestial Devourer",
+            "stages": 100
+        },
+        {
+            "id": 10,
+            "title": "Void's End",
+            "theme": "End of reality",
+            "npc": "Veyrath",
+            "intro_dialogue": "You call me darkness because you fear simplicity.",
+            "boss": "Heart of the Void",
+            "final_choice": {
+                "A": "Seal Void (World survives, but imperfect)",
+                "B": "Accept Void (Universe resets into single consciousness)"
+            },
+            "stages": 99
+        }
+    ]
+}
