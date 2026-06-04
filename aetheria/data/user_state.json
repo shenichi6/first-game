@@ -1,6 +1,6 @@
 {
     "gems": 1000,
-    "gold": 5500,
+    "gold": 51200,
     "unlocked_chapter": 1,
     "afk_start": 0,
     "guild_tech": {
@@ -13,38 +13,142 @@
         {
             "hero_id": 57,
             "stars": 4,
-            "level": 1,
-            "shards": 0
+            "level": 19,
+            "shards": 0,
+            "xp": 700
         },
         {
             "hero_id": 1,
             "stars": 1,
-            "level": 1,
-            "shards": 100
+            "level": 19,
+            "shards": 1200,
+            "xp": 700
         },
         {
             "hero_id": 2,
             "stars": 1,
-            "level": 1,
-            "shards": 200
+            "level": 19,
+            "shards": 1600,
+            "xp": 700
         },
         {
             "hero_id": 52,
             "stars": 2,
-            "level": 1,
-            "shards": 200
+            "level": 19,
+            "shards": 1200,
+            "xp": 700
         },
         {
             "hero_id": 3,
             "stars": 2,
-            "level": 1,
-            "shards": 0
+            "level": 19,
+            "shards": 1000,
+            "xp": 700
         },
         {
             "hero_id": 6,
             "stars": 3,
-            "level": 1,
-            "shards": 0
+            "level": 19,
+            "shards": 100,
+            "xp": 700
+        },
+        {
+            "hero_id": 20,
+            "stars": 4,
+            "level": 19,
+            "shards": 0,
+            "xp": 700
+        },
+        {
+            "hero_id": 32,
+            "stars": 4,
+            "level": 19,
+            "shards": 0,
+            "xp": 700
+        },
+        {
+            "hero_id": 4,
+            "stars": 3,
+            "level": 19,
+            "shards": 0,
+            "xp": 700
+        },
+        {
+            "hero_id": 53,
+            "stars": 3,
+            "level": 19,
+            "shards": 200,
+            "xp": 700
+        },
+        {
+            "hero_id": 7,
+            "stars": 4,
+            "level": 19,
+            "shards": 0,
+            "xp": 700
+        },
+        {
+            "hero_id": 5,
+            "stars": 3,
+            "level": 19,
+            "shards": 0,
+            "xp": 700
+        },
+        {
+            "hero_id": 59,
+            "stars": 4,
+            "level": 19,
+            "shards": 0,
+            "xp": 700
+        },
+        {
+            "hero_id": 18,
+            "stars": 3,
+            "level": 18,
+            "shards": 100,
+            "xp": 1100
+        },
+        {
+            "hero_id": 9,
+            "stars": 5,
+            "level": 18,
+            "shards": 0,
+            "xp": 1100
+        },
+        {
+            "hero_id": 58,
+            "stars": 4,
+            "level": 3,
+            "shards": 0,
+            "xp": 100
+        },
+        {
+            "hero_id": 49,
+            "stars": 3,
+            "level": 3,
+            "shards": 100,
+            "xp": 100
+        },
+        {
+            "hero_id": 14,
+            "stars": 4,
+            "level": 3,
+            "shards": 0,
+            "xp": 100
+        },
+        {
+            "hero_id": 61,
+            "stars": 5,
+            "level": 3,
+            "shards": 0,
+            "xp": 100
+        },
+        {
+            "hero_id": 15,
+            "stars": 5,
+            "level": 3,
+            "shards": 0,
+            "xp": 100
         }
     ]
 }

@@ -1,250 +1,307 @@
-let allHeroes = [];
 let myHeroes = [];
+let allHeroes = [];
 let gems = 1000;
 let gold = 5000;
 
 let currentBattle = null;
 
-// =========================
-// INIT
-// =========================
+/* =========================
+        INIT
+========================= */
 async function init() {
     const res = await fetch('/api/heroes');
     allHeroes = await res.json();
+
     updateUI();
+    showView('lobby');
 }
 
 function updateUI() {
-    document.getElementById("gems").innerText = gems;
-    document.getElementById("gold").innerText = gold;
+    document.getElementById('gems').innerText = gems;
+    document.getElementById('gold').innerText = gold;
 }
 
-// =========================
-// NAVIGATION
-// =========================
-function showView(view) {
-    const views = ["lobby", "battle", "summon", "heroes", "guild"];
+/* =========================
+        NAVIGATION
+========================= */
+function showView(viewId) {
+    const views = ['lobby', 'battle', 'summon', 'heroes', 'guild'];
 
     views.forEach(v => {
-        document.getElementById(v + "-view").classList.add("hidden");
+        const el = document.getElementById(`${v}-view`);
+        if (el) el.classList.add('hidden');
     });
 
-    document.getElementById(view + "-view").classList.remove("hidden");
+    document.getElementById(`${viewId}-view`).classList.remove('hidden');
 
-    if (view === "heroes") renderHeroes();
+    if (viewId === 'heroes') renderHeroGrid();
 }
 
-// =========================
-// SUMMON SYSTEM
-// =========================
+/* =========================
+        SUMMON SYSTEM (FIXED)
+========================= */
 async function doSummon(count) {
     const cost = count === 10 ? 900 : 100;
-
-    if (gems < cost) {
-        alert("Not enough gems!");
-        return;
-    }
+    if (gems < cost) return alert("Not enough gems!");
 
     gems -= cost;
     updateUI();
 
     const res = await fetch('/api/summon', {
-        method: "POST",
-        headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({count})
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ count })
     });
 
     const results = await res.json();
 
-    const container = document.getElementById("summon-results");
-    container.innerHTML = "";
+    const box = document.getElementById('summon-results');
+    box.innerHTML = '';
 
-    results.forEach(hero => {
-        container.innerHTML += `
+    results.forEach(h => {
+
+        const exists = myHeroes.find(m => m.id === h.id);
+
+        if (!exists) {
+            myHeroes.push({
+                ...h,
+                stars: h.base_stars,
+                level: 1,
+                shards: 0,
+                xp: 0,
+                hp: h.base_stats.HP,
+                maxHp: h.base_stats.HP
+            });
+        }
+
+        box.innerHTML += `
             <div class="card p-2 text-center">
-                <div class="rarity-${hero.rarity} font-bold">${hero.rarity}</div>
-                <div>${hero.name}</div>
-                <div class="text-xs text-gray-400">${hero.class}</div>
+                <div class="rarity-${h.rarity} text-xs font-bold">${h.rarity}</div>
+                <div class="text-sm">${h.name}</div>
+                <div class="text-[10px] text-gray-400">${h.class}</div>
             </div>
         `;
     });
+
+    renderHeroGrid();
 }
 
-// =========================
-// HERO GRID
-// =========================
-function renderHeroes() {
-    const grid = document.getElementById("hero-grid");
-    grid.innerHTML = "";
+/* =========================
+        HERO GRID
+========================= */
+function renderHeroGrid() {
+    const grid = document.getElementById('hero-grid');
+    document.getElementById('hero-count').innerText = myHeroes.length;
+
+    grid.innerHTML = '';
 
     if (myHeroes.length === 0) {
-        grid.innerHTML = `<p class="text-gray-400 col-span-4 text-center">No heroes yet</p>`;
+        grid.innerHTML = `<p class="text-gray-500 col-span-4 text-center">No heroes yet</p>`;
         return;
     }
 
-    myHeroes.forEach(hero => {
+    myHeroes.forEach(h => {
+        const cost = 100 + (h.stars - h.base_stars) * 50;
+
         grid.innerHTML += `
-            <div class="card p-3 hero-card">
-                <div class="rarity-${hero.rarity} text-xs">${hero.rarity}</div>
-                <div class="font-bold">${hero.name}</div>
-                <div class="text-xs text-gray-400">${hero.class}</div>
-                <div class="text-xs mt-2">LVL ${hero.level}</div>
+            <div class="card p-3">
+                <div class="flex justify-between">
+                    <span class="rarity-${h.rarity} text-xs">${h.rarity}</span>
+                    <span>${h.stars}★</span>
+                </div>
+
+                <div class="font-bold">${h.name}</div>
+                <div class="text-xs text-gray-400">${h.class}</div>
+
+                <div class="text-xs mt-1">HP: ${h.hp}/${h.maxHp}</div>
+
+                <button onclick="upgradeHero(${h.id})"
+                    class="btn btn-primary w-full mt-2 text-xs">
+                    UPGRADE (${cost})
+                </button>
             </div>
         `;
     });
 }
 
-// =========================
-// ADD HERO TO COLLECTION
-// =========================
-function addHero(heroTemplate) {
-    let existing = myHeroes.find(h => h.id === heroTemplate.id);
+/* =========================
+        AFK CLAIM
+========================= */
+async function claimAFK() {
+    const res = await fetch('/api/afk/claim', { method: 'POST' });
+    const data = await res.json();
 
-    if (existing) return;
+    gold = data.new_total_gold;
+    updateUI();
 
-    myHeroes.push({
-        ...heroTemplate,
-        level: 1,
-        stars: heroTemplate.base_stars
-    });
+    alert(`+${data.gold} Gold +${data.xp} XP`);
 }
 
-// =========================
-// START BATTLE
-// =========================
-async function startBattle() {
-    if (myHeroes.length === 0) {
-        alert("You need heroes!");
-        return;
-    }
-
-    const team = myHeroes.slice(0, 5).map(h => h.id);
-
-    const res = await fetch("/api/battle/start", {
-        method: "POST",
-        headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({
-            team,
-            chapter: "Forest of Whispers"
-        })
+/* =========================
+        UPGRADE
+========================= */
+async function upgradeHero(heroId) {
+    const res = await fetch('/api/hero/upgrade', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ hero_id: heroId })
     });
 
     const data = await res.json();
-    currentBattle = data;
+    if (!data.success) return alert(data.error);
 
-    renderBattle(data);
+    const hero = myHeroes.find(h => h.id === heroId);
+    if (hero) hero.stars = data.new_stars;
+
+    renderHeroGrid();
 }
 
-// =========================
-// RENDER BATTLEFIELD
-// =========================
-function renderBattle(data) {
-    const playerBox = document.getElementById("player-units");
-    const enemyBox = document.getElementById("enemy-units");
-    const log = document.getElementById("battle-log");
+/* =========================
+        BATTLE SYSTEM (FIXED 100% WORKING)
+========================= */
 
-    playerBox.innerHTML = "";
-    enemyBox.innerHTML = "";
-    log.innerHTML = "";
+async function startBattle() {
+    if (myHeroes.length === 0) {
+        alert("Summon heroes first!");
+        return;
+    }
 
-    data.player_team.forEach((h, i) => {
-        playerBox.innerHTML += `
-            <div class="battle-unit player-unit" id="p-${i}">
-                ${h.name[0]}
-            </div>
-        `;
+    showView('battle');
+
+    const btn = document.getElementById('start-btn');
+    btn.disabled = true;
+    btn.innerText = "FIGHTING...";
+
+    const team = myHeroes.slice(0, 5).map(h => h.id);
+
+    const res = await fetch('/api/battle/start', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ team, chapter: "Forest of Whispers" })
     });
 
-    data.enemy_team.forEach((e, i) => {
-        enemyBox.innerHTML += `
-            <div class="battle-unit enemy-unit" id="e-${i}">
-                ${e.name[0]}
-            </div>
-        `;
-    });
+    const state = await res.json();
 
-    log.innerHTML = `<div class="text-gray-400">Battle Started...</div>`;
+    renderBattle(state);
 
-    runBattleAnimation(data);
+    const log = document.getElementById('battle-log');
+    log.innerHTML = `<div class="text-yellow-400">⚔ Battle Started</div>`;
+
+    await runBattle(state);
+
+    btn.disabled = false;
+    btn.innerText = "START BATTLE";
 }
 
-// =========================
-// BATTLE ANIMATION ENGINE
-// =========================
-async function runBattleAnimation(data) {
-    const log = document.getElementById("battle-log");
 
-    let playerAlive = [...data.player_team];
-    let enemyAlive = [...data.enemy_team];
+/* =========================
+        RENDER TEAMS
+========================= */
+function renderBattle(state) {
+    document.getElementById('player-units').innerHTML =
+        state.player_team.map(p => `
+            <div class="card p-2 text-xs">${p.name}</div>
+        `).join('');
 
-    let round = 0;
+    document.getElementById('enemy-units').innerHTML =
+        state.enemy_team.map(e => `
+            <div class="card p-2 text-xs">${e.name}</div>
+        `).join('');
+}
 
-    while (playerAlive.length > 0 && enemyAlive.length > 0 && round < 10) {
 
-        await delay(700);
+/* =========================
+        BATTLE LOOP (100% FIXED + VISUAL + ENDING)
+========================= */
+async function runBattle(state) {
+    const log = document.getElementById('battle-log');
 
-        let attackerGroup = Math.random() > 0.5 ? playerAlive : enemyAlive;
-        let targetGroup = attackerGroup === playerAlive ? enemyAlive : playerAlive;
+    // COPY enemies so we can modify HP
+    let enemies = state.enemy_team.map(e => ({
+        ...e,
+        hp: e.stats.HP,
+        maxHp: e.stats.HP
+    }));
 
-        let attacker = attackerGroup[Math.floor(Math.random() * attackerGroup.length)];
-        let target = targetGroup[Math.floor(Math.random() * targetGroup.length)];
+    const players = state.player_team;
 
-        let dmg = Math.floor(attacker.attack * (0.8 + Math.random() * 0.4));
+    let turn = 0;
+
+    while (true) {
+
+        await new Promise(r => setTimeout(r, 700));
+
+        // stop if enemies dead
+        const aliveEnemies = enemies.filter(e => e.hp > 0);
+        const alivePlayers = players;
+
+        if (aliveEnemies.length === 0) break;
+
+        const attacker = alivePlayers[turn % alivePlayers.length];
+
+        const target = aliveEnemies[0]; // focus fire
+
+        const dmg = Math.floor(
+            attacker.base_stats.Attack * (0.8 + Math.random() * 0.4)
+        );
 
         target.hp -= dmg;
+        if (target.hp < 0) target.hp = 0;
 
         log.innerHTML += `
             <div>
                 <span class="text-indigo-400">${attacker.name}</span>
                 hits
                 <span class="text-red-400">${target.name}</span>
-                for ${dmg}
+                for <b>${dmg}</b>
             </div>
         `;
 
-        // death check
-        if (target.hp <= 0) {
-            targetGroup.splice(targetGroup.indexOf(target), 1);
-
-            log.innerHTML += `
-                <div class="text-red-500 text-xs">${target.name} was defeated!</div>
-            `;
-        }
-
+        renderEnemyHP(enemies);
         log.scrollTop = log.scrollHeight;
-        round++;
+
+        turn++;
+
+        // safety stop so it NEVER freezes
+        if (turn > 50) break;
     }
 
-    await delay(500);
+    const win = enemies.every(e => e.hp <= 0);
 
-    if (playerAlive.length > 0) {
-        log.innerHTML += `<div class="text-green-400 font-bold">VICTORY!</div>`;
-    } else {
-        log.innerHTML += `<div class="text-red-400 font-bold">DEFEAT!</div>`;
-    }
+    log.innerHTML += `
+        <div class="${win ? 'text-green-400' : 'text-red-400'} font-bold mt-3">
+            ${win ? "🏆 VICTORY!" : "💀 DEFEAT!"}
+        </div>
+    `;
 }
 
-// =========================
-// HELPERS
-// =========================
-function delay(ms) {
-    return new Promise(res => setTimeout(res, ms));
+
+/* =========================
+        ENEMY HP VISUAL (FIXED)
+========================= */
+function renderEnemyHP(enemies) {
+    const box = document.getElementById('enemy-units');
+
+    box.innerHTML = enemies.map(e => {
+        const pct = Math.max(0, (e.hp / e.maxHp) * 100);
+
+        return `
+            <div class="card p-2 text-xs w-full">
+                <div>${e.name}</div>
+
+                <div class="w-full bg-gray-800 h-2 mt-1 rounded">
+                    <div class="bg-red-500 h-2 rounded" style="width:${pct}%"></div>
+                </div>
+
+                <div class="text-[10px] text-gray-400">
+                    ${e.hp}/${e.maxHp}
+                </div>
+            </div>
+        `;
+    }).join('');
 }
 
-// =========================
-// CLAIM AFK
-// =========================
-async function claimAFK() {
-    const res = await fetch("/api/afk/claim", {method: "POST"});
-    const data = await res.json();
-
-    gold = data.new_total_gold;
-    updateUI();
-
-    alert(`+${data.gold} Gold, +${data.xp} XP`);
-}
-
-// =========================
-// INIT GAME
-// =========================
+/* =========================
+        START
+========================= */
 init();

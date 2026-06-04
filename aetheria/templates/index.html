@@ -98,86 +98,50 @@
         <!-- BATTLE -->
         <!-- ========================= -->
 
-        <section id="battle-view" class="hidden">
+        <!-- Battle View -->
+<div id="battle-view" class="hidden">
+    <div class="flex justify-between mb-4">
+        <button onclick="showView('lobby')" class="text-sm text-gray-400 hover:text-white">
+            ← Back to Lobby
+        </button>
+        <h3 class="text-xl font-bold">Battle: Forest of Whispers</h3>
+    </div>
 
-            <div class="battle-top">
+    <!-- STATUS (NEW) -->
+    <div id="battle-status" class="hidden text-center text-indigo-400 mb-2 font-bold">
+        ⚔️ Battle in progress...
+    </div>
 
-                <button onclick="showView('lobby')">
-                    ← Back
-                </button>
+    <!-- BATTLE FIELD -->
+    <div class="grid grid-cols-2 gap-4 h-64 border border-gray-800 rounded p-4 bg-black/50">
 
-                <h2>
-                    Forest of Whispers
-                </h2>
+        <!-- PLAYER -->
+        <div class="flex flex-col items-center justify-center">
+            <p class="text-indigo-400 font-bold mb-2">YOUR TEAM</p>
+            <div id="player-units" class="flex gap-2"></div>
+            <div id="player-hp" class="text-xs text-indigo-300 mt-2"></div>
+        </div>
 
-            </div>
+        <!-- ENEMY -->
+        <div class="flex flex-col items-center justify-center">
+            <p class="text-red-400 font-bold mb-2">VOID FORCES</p>
+            <div id="enemy-units" class="flex gap-2"></div>
+            <div id="enemy-hp" class="text-xs text-red-300 mt-2"></div>
+        </div>
+    </div>
 
-            <!-- Battlefield -->
+    <!-- LOG -->
+    <div id="battle-log"
+         class="mt-4 p-2 bg-gray-900 h-32 overflow-y-auto text-sm font-mono border border-gray-800">
+    </div>
 
-            <div id="battlefield">
-
-                <!-- ENEMY SIDE -->
-
-                <div class="enemy-side">
-
-                    <div class="back-row">
-
-                        <div id="enemy-4"></div>
-                        <div id="enemy-5"></div>
-
-                    </div>
-
-                    <div class="front-row">
-
-                        <div id="enemy-1"></div>
-                        <div id="enemy-2"></div>
-                        <div id="enemy-3"></div>
-
-                    </div>
-
-                </div>
-
-                <!-- HERO SIDE -->
-
-                <div class="hero-side">
-
-                    <div class="front-row">
-
-                        <div id="hero-1"></div>
-                        <div id="hero-2"></div>
-                        <div id="hero-3"></div>
-
-                    </div>
-
-                    <div class="back-row">
-
-                        <div id="hero-4"></div>
-                        <div id="hero-5"></div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- Battle Controls -->
-
-            <div class="battle-controls">
-
-                <button id="start-btn"
-                        onclick="startBattle()">
-                    START BATTLE
-                </button>
-
-            </div>
-
-            <!-- Battle Log -->
-
-            <div id="battle-log">
-
-            </div>
-
-        </section>
+    <!-- BUTTON -->
+    <div class="mt-4 flex justify-center">
+        <button id="start-btn" onclick="startBattle()" class="btn btn-primary">
+            START BATTLE
+        </button>
+    </div>
+</div>
 
         <!-- ========================= -->
         <!-- SUMMON -->
