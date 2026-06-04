@@ -1,0 +1,50 @@
+{
+    "gems": 1000,
+    "gold": 5500,
+    "unlocked_chapter": 1,
+    "afk_start": 0,
+    "guild_tech": {
+        "atk_boost": 0,
+        "hp_boost": 0,
+        "def_boost": 0,
+        "speed_boost": 0
+    },
+    "heroes": [
+        {
+            "hero_id": 57,
+            "stars": 4,
+            "level": 1,
+            "shards": 0
+        },
+        {
+            "hero_id": 1,
+            "stars": 1,
+            "level": 1,
+            "shards": 100
+        },
+        {
+            "hero_id": 2,
+            "stars": 1,
+            "level": 1,
+            "shards": 200
+        },
+        {
+            "hero_id": 52,
+            "stars": 2,
+            "level": 1,
+            "shards": 200
+        },
+        {
+            "hero_id": 3,
+            "stars": 2,
+            "level": 1,
+            "shards": 0
+        },
+        {
+            "hero_id": 6,
+            "stars": 3,
+            "level": 1,
+            "shards": 0
+        }
+    ]
+}

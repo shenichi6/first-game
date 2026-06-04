@@ -1,0 +1,71 @@
+Aetheria Planning Mind Map
+
+Goal: Build a small hero-collection RPG prototype with summoning, upgrades, AFK rewards, and battles.
+
+1. Core systems
+   1.1. Data sources
+       - heroes.json: hero stats, rarity, classes
+       - enemies.json: enemy groups by chapter
+       - story.json: narrative or chapter text
+   1.2. Player progression
+       - Gems and gold as currencies
+       - Owned heroes with stars, level, shards, XP
+       - Guild tech boosts for stats
+       - Chapters unlock over time
+
+2. Backend design
+   2.1. Flask server responsibilities
+       - Serve main page and static assets
+       - Provide hero data and game actions via JSON APIs
+       - Maintain temporary in-memory user state
+   2.2. API actions to implement
+       - fetch hero list
+       - summon heroes
+       - claim AFK rewards
+       - upgrade heroes with shards
+       - start chapter battles
+   2.3. Summon plan
+       - Use random rarity roll
+       - Map rarity to hero pools
+       - Convert duplicates into shards
+   2.4. Upgrade plan
+       - Use shard cost formula tied to hero stars
+       - Increase hero star rank on success
+   2.5. AFK reward plan
+       - Provide regular gold and XP to encourage returns
+       - Apply XP and auto-level heroes when thresholds reach
+   2.6. Battle plan
+       - Assemble player team and enemy team
+       - Create a turn log for combat actions
+       - Keep battle simulation simple and visual
+
+3. Frontend flow
+   3.1. Main lobby
+       - Display resources and buttons for each section
+       - Offer AFK claim and navigation
+   3.2. Summon flow
+       - Show 1x and 10x summon buttons
+       - Deduct cost and show summoned hero results
+       - Add new heroes or shard duplicates locally
+   3.3. Hero collection screen
+       - Show hero cards, levels, stars, shard progress
+       - Include upgrade button for each hero
+   3.4. Battle screen
+       - Render player and enemy icons
+       - Simulate rounds and show action log
+       - Display victory/defeat and reward gold
+   3.5. Guild and upgrades
+       - Placeholder UI for guild tech and boss challenges
+       - Plan future upgrades for guild features
+
+4. User experience
+   4.1. Keep controls simple and clear
+   4.2. Use visual rarity styling for hero cards
+   4.3. Make battle feel active with a turn-by-turn log
+   4.4. Keep browser refresh from wiping entire game state later
+
+5. Future expansion ideas
+   - Save player state to file or database
+   - Add real chapter progression and enemy difficulty scaling
+   - Add hero skills, classes, and stronger battle rules
+   - Add a shop, daily missions, and guild upgrades
